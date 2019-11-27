@@ -16,8 +16,21 @@
 
 * More than side effects etc FP is nothing but being
   obvious. When you look at the function you need to
-  be like , OK this does this and this will be the ouput
+  be like , OK this does this and this will be the output
   And currying and Partial application proves that.
   Because in currying the inner function uses the variable
   passed by the outer function. But its obvious that 
   the value you get is immutable and hence constant.
+
+27/11/2019
+* Equational Reasoning : funciton getPerson(function onPerson(person){return renderPerson(person)})
+                            ===
+                         function getPerson(rederPerson);
+  everyone might have done this but the only thing is we dont know names. And names are tough.
+  So if you find some new names just read and you would be like either
+  I did this before just I dont know the name
+  or
+  YEAH now I get it why they named it in this way.
+
+* https://www.youtube.com/watch?v=7XvgqDlp8sQ Interesting video about kubernetes.
+  kubernetes just groups all servers in a cluster and deploy containers.
