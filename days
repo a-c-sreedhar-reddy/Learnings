@@ -12,7 +12,7 @@
 
 * I love to get back my childhood brain. Because back
   then when I saw fogoh(x) it was beautiful and I owned
-  it. But now I think from an external perpective.
+  it. But now I think from an external perspective.
 
 * More than side effects etc FP is nothing but being
   obvious. When you look at the function you need to
@@ -25,7 +25,7 @@
 27/11/2019
 * Equational Reasoning : funciton getPerson(function onPerson(person){return renderPerson(person)})
                             ===
-                         function getPerson(rederPerson);
+                         function getPerson(renderPerson);
   everyone might have done this but the only thing is we dont know names. And names are tough.
   So if you find some new names just read and you would be like either
   I did this before just I dont know the name
