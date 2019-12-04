@@ -68,3 +68,23 @@ What happens in a day?
   <span style="color:orange;"> Why cant hashing functions be one to one rather than many to one?<span>
 
   Because when a user password is hashed and stored then there is a chance of collision with other password.
+
+- ##### Lazy Initialization in haskell
+
+  Haskell has Lazy initialization.
+
+  So what is lazy initialization?
+
+  A function is evaluated only when the result of the function is used.
+
+  Example:
+
+  ```haskell
+      take 24 [13,26..]
+  ```
+
+  In haskel take functions extracts first 24 elements from a list. And `[13,26..65]` in haskell returns `[13, 26, 39, 42, 65]` and this is an example of range.
+
+  > Remember `[1,2,3]` is also a function in haskell.
+
+  So if the last number is not provided `[13, 26..]` becomes a list of infinity numbers. But thats not how haskell evaluates the list. It sees what you want in `take 24 [13,26..]` and just evaluates the first 24 elements instead of the entire list.
