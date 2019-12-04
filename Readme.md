@@ -43,6 +43,7 @@ What happens in a day?
 #### 28/11/2019
 
 - ##### CORS: Cross-Origin Resource Sharing
+
   So sreedhar.com needs a resource from acreddy.com
 
   sreedhar.com : Hey browser I need acreddy.com/address
@@ -52,10 +53,18 @@ What happens in a day?
   BROWSER -> acreddy.com : Hey acreddy.com I need /address.
 
   acreddy.com -> BROWSER : Chennai. Here is my address but only give this to requests
-                          which came from acreddy.com.
+  which came from acreddy.com.
 
   BROWSER : Okay I got the address. But acreddy.com want it to be shared with requests originated from acreddy.com But here sreedhar.com is requesting the address. Okay I am not going to give this address to sreedhar.com
 
-  BROWSER -> sreedhar.com: Hey sreedhar.com! acreddy.com wants his address to be shared with just requests originated from  acreddy.com. So sorry I cant share this information with you
+  BROWSER -> sreedhar.com: Hey sreedhar.com! acreddy.com wants his address to be shared with just requests originated from acreddy.com. So sorry I cant share this information with you
 
   Basically this is CORS. The browser checks the **Access-Control-Allow-Origin** header and decides whether to give this response or not.
+
+#### 04/12/2019
+
+- ##### Hashing
+
+  <span style="color:orange;"> Why cant hashing functions be one to one rather than many to one?<span>
+
+  Because when a user password is hashed and stored then there is a change of collision with other password.
