@@ -67,4 +67,4 @@ What happens in a day?
 
   <span style="color:orange;"> Why cant hashing functions be one to one rather than many to one?<span>
 
-  Because when a user password is hashed and stored then there is a change of collision with other password.
+  Because when a user password is hashed and stored then there is a chance of collision with other password.
