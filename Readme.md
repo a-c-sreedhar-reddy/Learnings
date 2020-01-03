@@ -88,3 +88,9 @@ What happens in a day?
   > Remember `[1,2,3]` is also a function in haskell.
 
   So if the last number is not provided `[13, 26..]` becomes a list of infinity numbers. But thats not how haskell evaluates the list. It sees what you want in `take 24 [13,26..]` and just evaluates the first 24 elements instead of the entire list.
+  
+
+#### 04/12/2019
+
+- ##### Fast and maintainable patterns for fetching from a database - Sophiebits
+  https://sophiebits.com/2020/01/01/fast-maintainable-db-patterns.html
