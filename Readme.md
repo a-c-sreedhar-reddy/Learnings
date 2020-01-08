@@ -96,3 +96,13 @@ What happens in a day?
   https://sophiebits.com/2020/01/01/fast-maintainable-db-patterns.html
   I always wanted to know where parellel computation is useful and where FP solves the issues in it. In this blog its clear. 
 - Prototyping in JS : https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co
+
+
+#### 08/01/2019
+- STORY. How can you scale your applications with K8s?
+
+  https://www.youtube.com/watch?v=hZyUOvP7qv0
+
+  [@19:14](https://youtu.be/hZyUOvP7qv0?t=1155) One of the best comments. :-) [my_view_on_sdojojfd_names](https://github.com/a-c-sreedhar-reddy/Learnings#27112019)
+  
+  
