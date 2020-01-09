@@ -88,21 +88,30 @@ What happens in a day?
   > Remember `[1,2,3]` is also a function in haskell.
 
   So if the last number is not provided `[13, 26..]` becomes a list of infinity numbers. But thats not how haskell evaluates the list. It sees what you want in `take 24 [13,26..]` and just evaluates the first 24 elements instead of the entire list.
-  
 
 #### 03/01/2019
 
 - ##### Fast and maintainable patterns for fetching from a database - Sophiebits
-  https://sophiebits.com/2020/01/01/fast-maintainable-db-patterns.html
-  I always wanted to know where parellel computation is useful and where FP solves the issues in it. In this blog its clear. 
+  https://sophiebits.com/2020/01/01/fast-maintainable-db-patterns.html.
+  I always wanted to know where parellel computation is useful and where FP solves the issues in it. In this blog its clear.
 - Prototyping in JS : https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co
 
-
 #### 08/01/2019
+
 - STORY. How can you scale your applications with K8s?
 
   https://www.youtube.com/watch?v=hZyUOvP7qv0
 
   [@19:14](https://youtu.be/hZyUOvP7qv0?t=1155) One of the best comments. :-) [my_view_on_sdojojfd_names](https://github.com/a-c-sreedhar-reddy/Learnings#27112019)
-  
-  
+
+#### 09/01/2019
+
+- A [blog](https://www.cio.com/article/3201193/7-reasons-to-switch-to-microservices-and-5-reasons-you-might-not-succeed.html) on Microservices.
+
+  - Reduce downtime like if you want to fix a problem just pull that down and push the new one. Here queues will be helpful like until the service is up all the calls will be stored in the queue and service reads calls from the queue.
+
+  - You can scale just a service rathar than the whole application.
+
+  - Different stacks for different use cases.
+
+- Trying to achieve [this](https://youtu.be/dZ-nMjka3l0?t=159) Donald Knuth.
