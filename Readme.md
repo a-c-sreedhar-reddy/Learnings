@@ -115,3 +115,13 @@ What happens in a day?
   - Different stacks for different use cases.
 
 - Trying to achieve [this](https://youtu.be/dZ-nMjka3l0?t=159) Donald Knuth.
+
+#### 12/01/2020
+
+- [Edsger W. Dijkstra - Lecture: Reasoning About Programs](https://www.youtube.com/watch?v=GX3URhx6i2E)
+
+  - [game](https://youtu.be/GX3URhx6i2E?t=493) try to solve it. Go to the next point only if you had tried to solve the puzzle.
+  - You would get adrenalin rush at [this](https://youtu.be/GX3URhx6i2E?t=1288). But to get that you should first try to solve the problem and experience the adrenalin rush.
+  - Request by Dijkstra
+
+    Having seen how we can convince ourselves that programs indeed are totally correct, please realise that if you have written a program and its not correct that is a little bit cowardly to say that your program had a bug. To call errors bug is a very primitive animistic attitude suggested that the bug has life of itself and that you are not totally responsible for it. The mean little bug crept in behind your back at the moment you were not looking yeah. Oh this is not true. If the program is not correct you made an error and my request my prayer so to speak is that you stop using the term bugs for program errors but call them what they are, ERRORS. Unless we change our language and call an Error an Error programming and computing science have not yet matured .
