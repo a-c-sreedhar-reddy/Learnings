@@ -125,3 +125,14 @@ What happens in a day?
   - Request by Dijkstra
 
     Having seen how we can convince ourselves that programs indeed are totally correct, please realise that if you have written a program and its not correct that is a little bit cowardly to say that your program had a bug. To call errors bug is a very primitive animistic attitude suggested that the bug has life of itself and that you are not totally responsible for it. The mean little bug crept in behind your back at the moment you were not looking yeah. Oh this is not true. If the program is not correct you made an error and my request my prayer so to speak is that you stop using the term bugs for program errors but call them what they are, ERRORS. Unless we change our language and call an Error an Error programming and computing science have not yet matured .
+
+#### 25/01/2020
+
+- [GOTO 2018 • Computer Science - A Guide for the Perplexed • Joe Armstrong
+  ](https://www.youtube.com/watch?v=rmueBVrLKcY)
+- useLayoutEffect is interesting.
+  I had a view which has to render at a certain position. By using ref and mutating with useEffect was working. But the issue was there would be an initial render without the effect.
+
+  useLayoutEffect solved this. useLayoutEffect runs the effects synchronously after computing mutations.
+
+  So now there will be no jank with uselayouteffect.
