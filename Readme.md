@@ -136,3 +136,8 @@ What happens in a day?
   useLayoutEffect solved this. useLayoutEffect runs the effects synchronously after computing mutations.
 
   So now there will be no jank with uselayouteffect.
+
+#### 27/01/2020
+
+- [Is reduce() bad? - HTTP 203
+  ](https://www.youtube.com/watch?v=qaGjS7-qWzg)
