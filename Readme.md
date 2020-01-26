@@ -2,6 +2,16 @@
 
 What happens in a day?
 
+#### 27/01/2020
+
+- [Is reduce() bad? - HTTP 203
+  ](https://www.youtube.com/watch?v=qaGjS7-qWzg)
+
+  One thing I learnt after watching this video is if you want to loop an array use for of instead of forEach ( which I was using most of the time).
+
+  Why: Because functions should avoid mutation. And for each encourages mutation.
+  https://twitter.com/ACSreedharRedd2/status/1217162590310129664
+
 #### 23/11/2019
 
 - If it does not have a return keyword its not a function its procedure.
@@ -136,8 +146,3 @@ What happens in a day?
   useLayoutEffect solved this. useLayoutEffect runs the effects synchronously after computing mutations.
 
   So now there will be no jank with uselayouteffect.
-
-#### 27/01/2020
-
-- [Is reduce() bad? - HTTP 203
-  ](https://www.youtube.com/watch?v=qaGjS7-qWzg)
